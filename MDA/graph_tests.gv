@@ -1,0 +1,28 @@
+#terminal command $ dot -Tps graph_tests.gv -o graph1.ps
+digraph G {
+
+	subgraph cluster_0 {
+		node [style=filled, color=yellow];
+		a0 -> a1; 
+		a0 -> a2 -> a3;
+		label = "BadGuys";
+		style=filled;
+		color=lightgrey;
+	}
+
+	subgraph cluster_1 {
+		style=filled;
+		color=lightgrey;
+		node [shape=box,style=filled,color=aquamarine];
+		design_bomb -> get_materials -> build_bomb -> stick_in_car;
+		label = "bomb_process";
+	}
+	
+	a2 -> design_bomb;
+	a1 -> design_bomb;
+	a3 -> get_materials;
+	node[style=filled,color=tomato];
+	unknown0 -> build_bomb;
+	unknown1 -> stick_in_car;
+
+}

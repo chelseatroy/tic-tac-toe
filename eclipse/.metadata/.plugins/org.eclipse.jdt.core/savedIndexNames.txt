@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/Users/macowner/Documents/Development/eclipse/.metadata/.plugins/org.eclipse.jdt.core
+3703194086.index
+1553042644.index
+278923943.index

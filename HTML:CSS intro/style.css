@@ -1,0 +1,45 @@
+body {
+	color: #BFF;
+	background: #B06 url('') repeat;
+}
+
+h1{
+	font-size: 3em;
+	text-align: center;
+}
+
+h2{
+	font-size:1.2em;
+	text-align:center;
+}
+
+h3{
+
+}
+
+p{
+	color: white;
+}
+
+img{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+img#headshot{
+	border: 5px #99FF99;
+}
+
+img#book_cover{
+	width: 200px;
+	height:auto;
+}
+
+a{
+	color: #99FF99;
+}
+
+footer{
+	text-align: center;
+}

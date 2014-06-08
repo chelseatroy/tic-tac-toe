@@ -1,0 +1,67 @@
+body {
+	font-family: Fenix, monospace;
+	color: #BFF;
+	background: #222 url('') repeat;
+}
+
+img[src*='logo']{
+	margin-top: 10px;
+}
+
+ul.nav{
+	font-size: 24px;
+	list-style: none;
+	float: right;
+	padding:20px;
+}
+
+ul.nav li {
+	float: left; /*makes the things appear horizontally*/
+	margin-right: 40px; /*puts space b/t ea. nav item*/
+}
+
+ul.nav li a {
+	color: #BFF;
+	text-decoration: none;
+	font-weight: 800;
+}
+
+ul.nav li a:hover{
+	color: #FFF;
+}
+
+h1{
+	font-size: 1.70em;
+	font-weight:lighter;
+	padding: 5px 0px 0px 0px;
+}
+
+h3{
+	font-size: 24px;
+}
+
+img[src*='mint']{
+	height: 200px;
+	width: 200px;
+}
+
+.video{
+	padding: 50px #BFF;
+	border: 5px #BFF;
+	box-shadow: 10px 10px 5px;
+}
+
+p{
+	font-size: 20px;
+}
+
+input{
+	float: right;
+}
+
+#copyright{
+	border-top: 8px solid #2A0400;
+	padding: 10px 0px;
+	margin: 15px 0px;
+	text-align: center;
+}

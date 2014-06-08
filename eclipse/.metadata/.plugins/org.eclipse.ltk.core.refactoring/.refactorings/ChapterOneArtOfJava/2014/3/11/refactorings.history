@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;operations.printingThings&apos; to &apos;PrintingThings&apos;&#x0A;- Original project: &apos;ChapterOneArtOfJava&apos;&#x0A;- Original element: &apos;operations.printingThings&apos;&#x0A;- Renamed element: &apos;operations.PrintingThings&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;printingThings&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;operations{printingThings.java[printingThings" matchStrategy="1" name="PrintingThings" qualified="false" references="true" similarDeclarations="false" stamp="1394506086728" textual="false" version="1.0"/>
+</session>
