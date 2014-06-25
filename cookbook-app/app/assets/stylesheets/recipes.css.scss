@@ -1,0 +1,23 @@
+// Place all the styles related to the recipes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  background-image: url("pattern-13.jpg");
+  background-repeat: repeat;
+}
+
+div{
+   color: #DDDDDD;
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}
+
+img.index-images{
+  height: 160px;
+}
+
+img.show-images{
+  border-style:solid;
+  border-width:4px;
+  border-color:#DDDDDD;
+  margin: 10px
+}

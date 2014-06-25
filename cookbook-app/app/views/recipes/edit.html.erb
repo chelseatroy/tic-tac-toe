@@ -1,0 +1,32 @@
+<h1>Please edit this recipe:</h1>
+
+<%= form_for(@recipe) do |f| %>
+
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :author %><br>
+    <%= f.text_field :author %>
+  </div>
+  <div class="field">
+    <%= f.label :ingredients %><br>
+    <%= f.text_area :ingredients %>
+  </div>
+  <div class="field">
+    <%= f.label :directions %><br>
+    <%= f.text_area :directions %>
+  </div>
+  <div class="field">
+    <%= f.label :photo_url %><br>
+    <%= f.text_area :photo_url %>
+  </div>
+  <div class="field">
+    <%= f.label :prep_time %><br>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>
